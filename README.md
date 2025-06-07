@@ -65,13 +65,17 @@ OpenCV는 키보드 입력을 `활성화된 창(focused window)`에서만 인식
 
 ---
 
-## 🎬 미리보기
+## 🎬 Demo
 
-실행시키고 비디오 재생 결과입니다:
+### 실행 화면 (터미널 실시간 출력)
+![Terminal Demo](./demo/demo.gif)
 
-![Demo](./demo.gif)
-![Demo](./demo.gif)
-![Demo](./demo.gif)
+### 녹화된 영상 예시
+
+- **흑백 모드**
+![Grayscale Demo](./demo/gray-record-demo.gif)
+- **컬러 모드**
+![Color Demo](./demo/color-record-demo.gif)
 
 
 ---
@@ -80,8 +84,8 @@ OpenCV는 키보드 입력을 `활성화된 창(focused window)`에서만 인식
 
 - **ASCII 기반 실시간 비디오 재생** (터미널 출력)
 - **흑백 / 컬러 모드 전환 가능**
-- **영상 녹화 기능** (`recording/` 폴더에 저장됨)
-- **단일 프레임 `.txt` 저장** (`text/` 폴더)
+- **영상 녹화 기능** (`recording/` 폴더에 저장)
+- **단일 프레임 `.txt` 저장** (`text/` 폴더에 저장)
 - 해상도 조정 기능
 - Windows 터미널, Git Bash, VSCode 등에서 실행 가능
 
